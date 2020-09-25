@@ -28,6 +28,3 @@ def faktorer(x, reverse = 1):
 a = int(input("Tall?"))
 
 print(f"Faktorer av {a}: {faktorer(a)}")
-
-if isPrime(a):
-    print(f"{a} er et primtall.")
