@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Løsningsforslag
+Øving 3 - Oppgave 2
+
+@author: Thomas Nyborg
+"""
+
 #GLOBAL VARIABEL: Liste med lag i tippeligaen
 tippeligaen = ["Molde", "Bodø/Glimt", "Odd", "Rosenborg", "Viking", "KBK", 
             "Brann", "FK Haugesund", "Vålerenga", "Lillestrøm", "Stabæk", 
