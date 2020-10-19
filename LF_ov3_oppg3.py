@@ -93,7 +93,7 @@ def innskudd(val, antall):
     
 def uttak(belop):
     """Funksjon for uttak (oppgave d)."""
-    print(f"$$$ UTTAK $$$\nTar ut {ut} kr.")
+    print(f"$$$ UTTAK $$$\nTar ut {belop} kr.")
     print("Beholdning før uttak:")
     print_valorer(kasse)
     
