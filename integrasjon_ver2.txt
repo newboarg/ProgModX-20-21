@@ -1,0 +1,24 @@
+k=1, h=0.1
+Rektangelmetoden: 0.6829
+Trapesmetoden: 0.6823
+
+k=2, h=0.1
+Rektangelmetoden: 0.9546
+Trapesmetoden: 0.9543
+
+k=3, h=0.1
+Rektangelmetoden: 0.9973
+Trapesmetoden: 0.9973
+
+k=1, h=1e-05
+Rektangelmetoden: 0.6827
+Trapesmetoden: 0.6827
+
+k=2, h=1e-05
+Rektangelmetoden: 0.9545
+Trapesmetoden: 0.9545
+
+k=3, h=1e-05
+Rektangelmetoden: 0.9973
+Trapesmetoden: 0.9973
+
