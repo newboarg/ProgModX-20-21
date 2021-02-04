@@ -116,6 +116,6 @@ plt.plot(t_maling, v_maling, label = 'Datasett')
 
 plt.xlabel('tid [s]')
 plt.ylabel('fart [m/s]')
-plt.title(f'{filnavn.split(".")[0]}, k = {k}')
+plt.title(f'{filnavn.split(".")[0].capitalize()}, k = {k}')
 plt.grid()
 plt.legend()
