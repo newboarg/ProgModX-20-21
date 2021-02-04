@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Løsningsforslag
-Øving 5 - Oppgave 1
+Øving 6 - Oppgave 1
 
 @author: Thomas Nyborg
 """
