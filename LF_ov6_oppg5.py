@@ -21,10 +21,11 @@ t_slutt = 20 # sluttverdi for t
 
 k = 0.1
  
-N = 21 # antall steg, bør være minst antall måneder pluss 1
-# dette tilsvarer å evaluere veksten i bestanden en gang i måneden.
-# hvis vi ønsker å anta kontinuerlig vekst bør vi gjøre N så 
-# stor som mulig for å få best mulig resultat
+N = 1000 # Antall steg, bør være minst antall måneder pluss 1.
+# dette tilsvarer å evaluere veksten i bestanden etter hver måned.
+# Dette vil ikke være helt nøyaktig.
+# Hvis vi ønsker å modellere kontinuerlig vekst bør vi gjøre N så 
+# stor som mulig for å få best mulig resultat.
 
 h = (t_slutt-t_0)/(N-1) # regner ut steglengden
 
