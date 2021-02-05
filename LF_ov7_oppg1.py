@@ -93,8 +93,8 @@ writeToFile(filnavn, a_maling, t_maling) # skriver data til fil
 ### MODELL ###
 # Konstanter
 g = 9.81 # tyngdeakselerasjon
-m = 0.37 # massen av ballen
-k = 0.045 # faktor som tar hensyn til formen til ballen, vind, lufftrykk i ballen, m.o.h., temperatur osv.
+m = 0.37 # massen av gjenstanden
+k = 0.045 # faktor som tar hensyn til formen til gjenstanden, vind, m.o.h., temperatur osv.
 
 # Initialbetingelser for modell
 t_0 = t_maling[0]
@@ -111,8 +111,8 @@ for i in range(N-1):
     v[i+1] = v[i] + h *(g - k * v[i]**2 / m) 
 
 ### PLOTTING
-plt.plot(t,v, label = 'Modell')
 plt.plot(t_maling, v_maling, label = 'Datasett')
+plt.plot(t,v, label = 'Modell')
 
 plt.xlabel('tid [s]')
 plt.ylabel('fart [m/s]')
